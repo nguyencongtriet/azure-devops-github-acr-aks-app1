@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app1nginxaks 
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: app1nginxaks
