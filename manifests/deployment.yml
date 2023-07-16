@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app1nginxaks 
-          image: aksdevopsacr.azurecr.io/app1nginxaks
+          image: acrtnguyen547.azurecr.io/nguyencongtrietazuredevopsgithubacraksapp
           ports:
           - containerPort: 80
